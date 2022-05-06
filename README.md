@@ -21,4 +21,10 @@
     2. elif
     3. else
     4. nested if else
+
+## Loop statements
+    1. for
+    2. while
+    3. break
+    4. continue
     
