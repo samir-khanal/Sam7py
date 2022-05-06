@@ -1,55 +1,65 @@
-print("welcome to Computer bazaar")
+print("=========welcome to Computer bazaar==========")
+total_price = 0
+gt = 0
+tax_amount = 0
+quantity = 0
 print("here are the laptops that are available in our store right now\n"
-      "dell\n"
-      "toshiba\n"
-      "mac")
-dell = 20000
-toshiba = 30000
-mac = 50000
-lap = input("enter the laptop name:")
-if lap == "dell":
-    print("cost: Rs", dell)
-elif lap == "toshiba":
-    print("cost: Rs", toshiba)
+      "1.Dell(Rs:20000)\n"
+      "2.Toshiba(Rs:30000)\n"
+      "3.Mac(Rs:50000)")
+dell = 0
+toshiba = 0
+mac = 0
+lap = int(input("Select any option:"))
+if lap == 1:
+    quantity = int(input("quantity:"))
+    dell = 20000 * quantity
+elif lap == 2:
+    quantity = int(input("quantity:"))
+    toshiba = 30000 * quantity
+elif lap == 3:
+    quantity = int(input("quantity:"))
+    mac = 50000 * quantity
 else:
-    print("cost: Rs", mac)
-quan = int(input("quantity:"))
+    print("Exit")
+    exit()
 
+print("Delivery options: 1.home(Rs.1000) 2.Pick_up(free)")
+deli_price = 0
 home = 1000
-pick_up = ": free"
-deli = input("enter the delivery option[home,pick_up]:")
-if deli == "home":
-    print("delivery cost Rs", home)
-elif deli == "pick_up":
-    print("delivery cost", pick_up)
+pick_up = 0
+deli = int(input("enter the delivery option number:"))
+if deli == 1:
+    deli_price += home
+elif deli == 2:
+    deli_price += pick_up
 
-plastic = 500
-bag = 1000
-gift_box = 5000
-pack = input(
-    "enter a packaging option you want from these options, For ex: write [plastic] if you want that packaging :\n"
-    "a)plastic\n"
-    "b)bag\n"
-    "c)gift_box\n"
-    "d)none\n"
-    "a quick reminder that packaging will cost you extra money[enter here]:")
-if pack == "plastic":
-    print("packaging cost Rs", plastic)
-elif pack == "bag":
-    print("packaging cost Rs", bag)
-elif pack == "gift_box":
-    print("packaging cost Rs", gift_box)
+print("Packaging options:\n"
+      "a.plastic(Rs.500)\n"
+      "b.bag(Rs.1000)\n"
+      "c.gift_box(Rs.5000)\n"
+      "d.none")
+plastic = 0
+bag = 0
+gift_box = 0
+pack = (input("Enter option:"))
+if pack == "a":
+    plastic += 500
+elif pack == "b":
+    bag += 1000
+elif pack == "c":
+    gift_box += 5000
 else:
     print("none")
 
-
-ktm = dell + (13 / 100) * dell
+print("Locations: 1.KTM(13% tax) 2.LTP(free) 3.BKT(free)")
+ktm = (13 / 100)
 lit = 0
 bkt = 0
-loc = input("enter a delivery location:\n"
-            "a)ktm\n"
-            "b)lit\n"
-            "c)bkt [Enter here]:")
-if loc == "ktm":
-    print("Tax applied for products is: Rs", ktm)
+loc = int(input("Enter a delivery option:"))
+total_price += dell + toshiba + mac
+if loc == 1:
+    tax_amount += total_price * ktm
 
+gt = total_price + deli_price + bag + plastic + gift_box + tax_amount
+print(f"Total quantity:{quantity} Total price:{total_price} Tax amount:{tax_amount} Gt:{gt}")
