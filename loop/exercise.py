@@ -21,9 +21,21 @@
 #     x -= 1
 
 # stop iteration: break,continue
-x = 0
-while x < 10:
-    x += 1
-    if x == 1 or x == 4 or x == 9:
-        continue
-    print(x, end=" ")
+# x = 0
+# while x < 10:
+#     x += 1
+#     if x == 1 or x == 4 or x == 9:
+#         continue
+#     print(x, end=" ")
+
+# y=int(input("enter no of students:"))
+# increment=1
+# students_name=[]
+# while increment<=y:
+#     x=input("enter a name:")
+#     students_name.append(x)
+#     increment+=1
+# print(students_name.sort())
+
+
+
