@@ -119,3 +119,6 @@ def a(x,y):
 #
 #     :return:
 #     """
+
+# zip() function important
+# module practise

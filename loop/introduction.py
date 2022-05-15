@@ -1,19 +1,19 @@
 # while loop:indefinite iteration
 # EX:
-x=1
-while x<10:
-    print(x,end=" ")
-    x+=1
-#end="is used to print output in horizontal. "
-# a=1
-# nam=int(input("enter the no of times:"))
-# while a<=nam:
-#     print("samir") # or print(f{increment}: samir")
-#     a+=1
-
-# total_even = 0
-# total_odd = 0
-# x = 1
+# x=1
+# while x<10:
+#     print(x,end=" ")
+#     x+=1
+# #end="is used to print output in horizontal. "
+# # a=1
+# # nam=int(input("enter the no of times:"))
+# # while a<=nam:
+# #     print("samir") # or print(f{increment}: samir")
+# #     a+=1
+#
+# # total_even = 0
+# # total_odd = 0
+# # x = 1
 # num = int(input("enter number:"))
 # while x <= num:
 #     if x % 2 == 0:
