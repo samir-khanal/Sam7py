@@ -8,5 +8,5 @@
 # def ge_std():
 #     return"i am a student"
 
-if __name__=="__main__":
-    print("my name is samir")
+# if __name__=="__main__":
+#     print("my name is samir")

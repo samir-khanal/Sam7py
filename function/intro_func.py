@@ -11,13 +11,13 @@
 # print(dir(__builtins__))
 
 # User defined function example:
-def my_function():
-    # function body
-    print("hello world")
-
-
-# call function
-my_function()
+# def my_function():
+#     # function body
+#     print("hello world")
+#
+#
+# # call function
+# my_function()
 
 # Parameters example:
 
@@ -36,11 +36,14 @@ my_function()
 # add(70,80)
 
 # Optional parameters example:
-# def add(x,y=0):
+# def add(x,y=10):
 #     print(x+y)
 #
 #
 # add(40)
+
+def users(name1,name2,name3):
+    pass
 
 # * arguments example:
 # **keyword argument example:
@@ -70,15 +73,15 @@ my_function()
 # print(add(40, 50))
 
 
-x = 10
-
-
-def test():
-    print(x)
-
-
-test()
-print(x)
+# x = 10
+#
+#
+# def test():
+#     print(x)
+#
+#
+# test()
+# print(x)
 
 x = 20
 

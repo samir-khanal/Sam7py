@@ -1,19 +1,22 @@
-# def take_value():
-#     p = int(input("enter p:"))
-#     t = int(input("enter t:"))
-#     r = int(input("enter r:"))
-#     return [p, t, r]
-#
-#
-# def calculate():
-#     p, t, r = take_value()
-#     return p * t * r / 100
-#     ## or res=take_value()
-#     # p=res[0]
-#     # t=res[1]
-#     # r=res[2]
-#     # return =p*t*r/100
-#
+def take_value():
+    p = int(input("enter p:"))
+    t = int(input("enter t:"))
+    r = int(input("enter r:"))
+    return [p, t, r]
+
+
+def calculate():
+    p, t, r = take_value()
+    return p * t * r / 100
+    ## or res=take_value()
+    # p=res[0]
+    # t=res[1]
+    # r=res[2]
+    # return =p*t*r/100
+
+
+calculate()
+
 #
 # def display():
 #     print("the interest is:", calculate())
@@ -51,6 +54,6 @@
 # add_sub_mul_div(num_1, num_2, num_3)
 
 
-#zip()
+# zip()
 
-data=[]
+data = []
