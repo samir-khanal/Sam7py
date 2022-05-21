@@ -13,12 +13,12 @@
 # print(obj.x)
 
 
-class students:
-    def name(self, name):
-        print(f"student name is {name}")
-
-    def age(self, age):
-        print(f"student age is {age}")
-
-
-obj = students()
+# class students:
+#     def name(self, name):
+#         print(f"student name is {name}")
+#
+#     def age(self, age):
+#         print(f"student age is {age}")
+#
+#
+# obj = students()
