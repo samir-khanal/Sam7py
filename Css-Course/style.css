@@ -1,0 +1,37 @@
+.box{
+   width: 400px; 
+   height: 300px;
+   background-color: red;
+   border-style:solid;
+   border-width: 4px;
+   border-color: black;
+   float: left;
+   display: flex;
+   justify-content: space-around;
+   
+}
+
+.box1{
+    width: 400px;
+    height: 300px;
+    background-color: green;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    float: right;
+    
+}
+
+.child1{
+    width: 100px;
+    background: black;
+    height: 100px;
+    
+}
+
+.child2{
+    width: 100px;
+    height: 100px;
+    background:purple;
+    
+}

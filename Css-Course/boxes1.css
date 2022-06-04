@@ -1,0 +1,132 @@
+.box{
+    width: 1000px; 
+    height: 690px;
+    background-color: red;
+    border-style:solid;
+    border-width: 4px;
+    border-color: black;
+    margin-top: 40px;
+    margin-left: 200px;
+    
+}
+
+.box1{
+    width: 950px;
+    height: 10px;
+    background-color: green;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    margin: 5px;
+    padding: 15px;
+}
+
+.box2{
+    width: 55%;
+    height: 51px;
+    background:purple;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    margin-left: 5px;
+    float: left;
+}
+
+.box3{
+    width: 42%;
+    height: 50px;
+    background:white;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    margin-right: 6px;
+    display: flex;
+    float: right;
+}
+
+.box4{
+    width: 75%;
+    height: 370px;
+    background:yellow;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    float: left;
+    
+    margin-left: 15px;
+}
+
+.box5{
+    width: 219px;
+    height: 180.5px;
+    background:blue;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    float: right;
+    display: flex;
+
+}
+
+.box6{
+    width: 219px;
+    height: 180.5px;
+    background:blue;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    display: flex;
+    float: right;
+    
+}
+
+.box7{
+    width: 199.1px;
+    height: 100px;
+    background:rgb(114, 213, 252);
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    margin-left: 20px;
+    margin-top: 6px;
+    float: left;
+    display: flex;
+    
+}
+
+.box8{
+    width: 220px;
+    height: 90px;
+    background:blue;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    float: right;
+    margin-top: 6px;
+    
+}
+
+.box9{
+    width: 517px;
+    height: 90px;
+    background:greenyellow;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    float: right;
+    margin-top: 5px;
+    margin-right: 10px;
+    
+}
+
+.box10{
+    width: 963px;
+    height: 70px;
+    background:blue;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    float: right;
+    margin-right: 9px;
+}
+
